@@ -1,12 +1,14 @@
+//algorito que pede um valor real 
+
 #include <stdio.h>
 
 int main() {
     float valor;
 
-    printf("Digite um valor real (número com ponto decimal): ");
+    printf("Digite um valor real (numero com ponto decimal): ");
     scanf("%f", &valor);
 
-    printf("Você digitou: %.2f\n", valor);
+    printf("Voce digitou: %.2f\n", valor);
 
     return 0;
 }
