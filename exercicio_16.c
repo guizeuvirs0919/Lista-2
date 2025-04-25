@@ -1,3 +1,5 @@
+//algoritimo que que pede o comprimento, altura e largura de um objeto para determinar o volume do objeto 
+
 #include <stdio.h>
 
 int main() {
@@ -14,7 +16,7 @@ int main() {
 
     volume = comprimento * largura * altura;
 
-    printf("O volume do objeto é: %.2f metros cúbicos\n", volume);
+    printf("O volume do objeto Ã©: %.2f metros cÃºbicos\n", volume);
 
     return 0;
 }
