@@ -1,4 +1,6 @@
-    #include <stdio.h>
+//algorito que pede pro usuario seu dia, mes e ano de nascimento, e no final calcula a sua idade em meses 
+
+#include <stdio.h>
 
 int main() {
     int diaNasc, mesNasc, anoNasc;
@@ -7,14 +9,14 @@ int main() {
 
     printf("Digite o dia de nascimento (dd): ");
     scanf("%d", &diaNasc);
-    printf("Digite o mês de nascimento (mm): ");
+    printf("Digite o mÃªs de nascimento (mm): ");
     scanf("%d", &mesNasc);
     printf("Digite o ano de nascimento (aaaa): ");
     scanf("%d", &anoNasc);
 
     printf("Digite o dia atual (dd): ");
     scanf("%d", &diaAtual);
-    printf("Digite o mês atual (mm): ");
+    printf("Digite o mes atual (mm): ");
     scanf("%d", &mesAtual);
     printf("Digite o ano atual (aaaa): ");
     scanf("%d", &anoAtual);
@@ -25,7 +27,7 @@ int main() {
         idadeMeses--;
     }
 
-    printf("Sua idade em meses é: %d meses\n", idadeMeses);
+    printf("Sua idade em meses Ã©: %d meses\n", idadeMeses);
 
     return 0;
 }
