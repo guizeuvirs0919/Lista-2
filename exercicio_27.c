@@ -1,3 +1,5 @@
+//algoritimo que pega uma valor decimal dititado e transforma em inteiro
+
 #include <stdio.h>
 
 int main() {
