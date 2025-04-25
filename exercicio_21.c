@@ -1,9 +1,11 @@
+//algoritimo que agora faz a divizao e oque sobrar fala se é par ou impar
+
 #include <stdio.h>
 
 int main() {
     int num1, num2, resto;
 
-    printf("Digite o primeiro numero inteiro (dividendo): ");
+    printf("Digite o primeiro numero inteiro (numerador): ");
     scanf("%d", &num1);
 
     printf("Digite o segundo numero inteiro (divisor): ");
