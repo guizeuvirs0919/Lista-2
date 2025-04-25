@@ -1,3 +1,5 @@
+//codigo feito para saber o tipo de triangulo, de acordo com os numeros digitados pelo usuario.
+
 #include <stdio.h>
 
 int main() {
@@ -20,15 +22,15 @@ int main() {
 
 
         if (lado1 == lado2 && lado2 == lado3) {
-            printf("Triângulo Equilátero\n");
+            printf("TriÃ¢ngulo EquilÃ¡tero\n");
         } else if (lado1 == lado2 || lado1 == lado3 || lado2 == lado3) {
-            printf("Triângulo Isósceles\n");
+            printf("TriÃ¢ngulo IsÃ³sceles\n");
         } else {
-            printf("Triângulo Escaleno\n");
+            printf("TriÃ¢ngulo Escaleno\n");
         }
 
     } else {
-        printf("Os valores não formam um triângulo.\n");
+        printf("Os valores nÃ£o formam um triÃ¢ngulo.\n");
     }
 
     return 0;
