@@ -1,10 +1,12 @@
+
+
 #include <stdio.h>
 
 int main() {
     char letra;
     int limite, contador = 0;
 
-    printf("Digite o numero máximo de letras que você pode escrever: ");
+    printf("Digite o numero mÃ¡ximo de letras que vocÃª pode escrever: ");
     scanf("%d", &limite);
 
     getchar();
@@ -13,14 +15,14 @@ int main() {
 
     while (contador < limite) {
         printf("Digite a letra %d: ", contador + 1);
-        letra = getchar();  // Lê uma letra
-        getchar();  // Captura o caractere '\n' deixado pelo enter
+        letra = getchar();  // LÃª uma letra
+        getchar();
 
-        printf("Você digitou a letra: %c\n", letra);
+        printf("VocÃª digitou a letra: %c\n", letra);
         contador++;
     }
 
-    printf("Você digitou %d letras. Programa encerrado.\n", contador);
+    printf("VocÃª digitou %d letras. Programa encerrado.\n", contador);
 
     return 0;
 }
