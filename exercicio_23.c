@@ -1,3 +1,5 @@
+//algoritio que usa memorizaÃ§Ã£o para calcula a sequencia de fiobancci
+
 #include <stdio.h>
 
 #define MAX 1000
@@ -16,11 +18,11 @@ long long int fibonacci(int n) {
 int main() {
     int n;
 
-    printf("Digite até qual termo da sequência de Fibonacci deseja ver (até %d): ", MAX - 1);
+    printf("Digite atÃ© qual termo da sequÃªncia de Fibonacci deseja ver (atÃ© %d): ", MAX - 1);
     scanf("%d", &n);
 
     if (n < 0 || n >= MAX) {
-        printf("Número inválido, Digite um valor entre 0 e %d.\n", MAX - 1);
+        printf("NÃºmero invÃ¡lido, Digite um valor entre 0 e %d.\n", MAX - 1);
         return 1;
     }
 
@@ -28,7 +30,7 @@ int main() {
         memo[i] = -1;
     }
 
-    printf("Sequência de Fibonacci até o termo %d:\n", n);
+    printf("SequÃªncia de Fibonacci atÃ© o termo %d:\n", n);
     for (int i = 0; i <= n; i++) {
         printf("%lld ", fibonacci(i));
     }
