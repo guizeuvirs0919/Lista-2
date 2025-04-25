@@ -1,3 +1,5 @@
+//algoritimo que pega dados de uma pessoa e fala se esta apta para fazer o alistamento militar
+
 #include <stdio.h>
 #include <string.h>
 
@@ -16,7 +18,7 @@ int main() {
     printf("Digite a nacionalidade: ");
     scanf("%s", nacionalidade);
 
-    printf("Possui alguma deficiencia grave? (Sim/Não): ");
+    printf("Possui alguma deficiencia grave? (Sim/NÃ£o): ");
     scanf("%s", deficiencia);
 
     if (idade >= 18 && idade <= 45 &&
@@ -24,9 +26,9 @@ int main() {
         (strcmp(nacionalidade, "Brasileiro") == 0 || strcmp(nacionalidade, "brasileiro") == 0) &&
         (strcmp(deficiencia, "Nao") == 0 || strcmp(deficiencia, "nao") == 0 || strcmp(deficiencia, "Nao") == 0)) {
 
-        printf("\nCidadão Apto ao alistamento militar obrigatorio.\n");
+        printf("\nCidadÃ£o Apto ao alistamento militar obrigatorio.\n");
     } else {
-        printf("\nCidadão Nao pode  fazer o alistamento militar obrigatorio.\n");
+        printf("\nCidadÃ£o Nao pode  fazer o alistamento militar obrigatorio.\n");
     }
 
     return 0;
