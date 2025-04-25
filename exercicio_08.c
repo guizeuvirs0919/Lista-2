@@ -1,3 +1,5 @@
+//algorito que pega seu nome, sua idade, seu genero e sua altura 
+
 #include <stdio.h>
 
 int main() {
@@ -8,18 +10,18 @@ int main() {
     float altura;
 
     printf("Digite seu nome: ");
-    fgets(nome, sizeof(nome), stdin); // Lê o nome com espaços
+    fgets(nome, sizeof(nome), stdin); // LÃª o nome com espaÃ§os
 
     printf("Digite sua idade: ");
     scanf("%d", &idade);
 
     printf("Digite seu genero (M/F): ");
-    scanf(" %c", &genero); // espaço antes do %c para ignorar o enter anterior
+    scanf(" %c", &genero); // espaÃ§o antes do %c para ignorar o enter anterior
 
     printf("Digite sua altura (em metros, exemplo 1.75): ");
     scanf("%f", &altura);
 
-    printf("\n--- Dados do Usuário ---\n");
+    printf("\n--- Dados do UsuÃ¡rio ---\n");
     printf("Nome: %s", nome);
     printf("Idade: %d anos\n", idade);
     printf("Genero: %c\n", genero);
