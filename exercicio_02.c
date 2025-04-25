@@ -1,3 +1,5 @@
+//codigo pra saber se altura da pessoa de acordo com o genero esta de acordo com a média
+
 #include <stdio.h>
 
 int main() {
@@ -8,7 +10,7 @@ int main() {
     scanf("%f", &altura);
 
     printf("Digite seu genero (M para masculino, F para feminino): ");
-    scanf(" %c", &genero); // espa�o antes do %c pra ignorar o ENTER anterior
+    scanf(" %c", &genero); // espaço antes do %c pra ignorar o ENTER anterior
 
     if (genero == 'M' || genero == 'm') {
         if (altura > 1.75) {
