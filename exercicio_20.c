@@ -1,3 +1,5 @@
+//algoritimo que pega os 3 caracteres digitados e coloque em ordem alfabetica
+
 #include <stdio.h>
 
 int main() {
