@@ -1,3 +1,5 @@
+// recebe dois numeros soma eles, depois pega mais dois, soma e no final divide o valor dos dois resultados
+
 #include <stdio.h>
 
 int main() {
@@ -22,7 +24,7 @@ int main() {
     soma2 = num3 + num4;
 
     if (soma2 == 0) {
-        printf("Erro: divis„o por zero nao e permitida.\n");
+        printf("Erro: divis√£o por zero nao e permitida.\n");
     } else {
         resultado = (float)soma1 / soma2;
         printf("Resultado da divisao da primeira soma pela segunda: %.2f\n", resultado);
