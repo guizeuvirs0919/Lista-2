@@ -1,3 +1,5 @@
+//algorito que pede pro usuario 2 numeros reais e 5 carcteres e que diz no final ouqe vc escreveu 
+
 #include <stdio.h>
 
 int main() {
@@ -12,7 +14,7 @@ int main() {
     scanf("%f", &valor2);
 
     printf("Digite o primeiro caractere: ");
-    scanf(" %c", &caractere1);  // O espaço antes do %c é para limpar o buffer de entrada
+    scanf(" %c", &caractere1); 
 
     printf("Digite o segundo caractere: ");
     scanf("%c", &caractere2);
@@ -26,7 +28,7 @@ int main() {
     printf("Digite o quinto caractere: ");
     scanf("%c", &caractere5);
 
-    printf("\nVocê digitou os seguintes valores:\n");
+    printf("\nVocÄ™ digitou os seguintes valores:\n");
     printf("Valores reais: %.2f e %.2f\n", valor1, valor2);
     printf("Caractere 1: %c\n", caractere1);
     printf("Caractere 2: %c\n", caractere2);
