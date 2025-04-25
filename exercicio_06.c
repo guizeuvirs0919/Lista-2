@@ -1,3 +1,5 @@
+//algorito que pega dois numeros e some e depois mostra o resultado
+
 #include <stdio.h>
 
 int main() {
