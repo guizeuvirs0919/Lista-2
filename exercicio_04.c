@@ -1,3 +1,4 @@
+// algoritmo que recebe duas datas em anos que a primeira entrada tenha um valor inteiro menor que o segundo valor, e deve mostrar os anos bixestos no intervalo dos valores
 #include <stdio.h>
 
 int main() {
