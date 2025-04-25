@@ -10,13 +10,13 @@ int main() {
     float altura;
 
     printf("Digite seu nome: ");
-    fgets(nome, sizeof(nome), stdin); // Lê o nome com espaços
+    fgets(nome, sizeof(nome), stdin);
 
     printf("Digite sua idade: ");
     scanf("%d", &idade);
 
     printf("Digite seu genero (M/F): ");
-    scanf(" %c", &genero); // espaço antes do %c para ignorar o enter anterior
+    scanf(" %c", &genero); 
 
     printf("Digite sua altura (em metros, exemplo 1.75): ");
     scanf("%f", &altura);
