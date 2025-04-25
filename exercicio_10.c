@@ -1,9 +1,11 @@
+//algoritimo que faz um cardapio e que o usuario pode escolher as op√ß√µes 
+
 #include <stdio.h>
 
 int main() {
     int opcao;
 
-    printf("===== CARD¡PIO =====\n");
+    printf("===== CARD√ÅPIO =====\n");
     printf("1 - Hamburguer\n");
     printf("2 - Pizza\n");
     printf("3 - Salada\n");
@@ -11,7 +13,7 @@ int main() {
     printf("5 - Sorvete\n");
     printf("====================\n");
 
-    printf("Escolha uma opÁao (1 a 5): ");
+    printf("Escolha uma op√ßao (1 a 5): ");
     scanf("%d", &opcao);
 
     if (opcao == 1) {
@@ -25,7 +27,7 @@ int main() {
     } else if (opcao == 5) {
         printf("Voce escolheu: Sorvete\n");
     } else {
-        printf("OpÁ„o inv·lida. Por favor, escolha um n˙mero de 1 a 5.\n");
+        printf("Op√ß√£o inv√°lida. Por favor, escolha um n√∫mero de 1 a 5.\n");
     }
 
     return 0;
