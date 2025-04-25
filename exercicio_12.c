@@ -1,28 +1,16 @@
-
+//algorito que vc define o quanto de letras o usuario pode escrever
 
 #include <stdio.h>
+#include <string.h>
 
 int main() {
-    char letra;
-    int limite, contador = 0;
+    char letra[6]; 
 
-    printf("Digite o numero máximo de letras que você pode escrever: ");
-    scanf("%d", &limite);
+    printf("Digite até 5 letras: ");
+    fgets(letra, sizeof(letra), stdin);
 
-    getchar();
-
-    printf("Digite ate %d letras (uma por vez):\n", limite);
-
-    while (contador < limite) {
-        printf("Digite a letra %d: ", contador + 1);
-        letra = getchar();  // Lê uma letra
-        getchar();
-
-        printf("Você digitou a letra: %c\n", letra);
-        contador++;
-    }
-
-    printf("Você digitou %d letras. Programa encerrado.\n", contador);
+    printf("Você digitou: %s\n", letra);
 
     return 0;
 }
+
