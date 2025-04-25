@@ -1,3 +1,5 @@
+//codigo pro usuario digitar 3 numeros inteiros
+
 #include <stdio.h>
 
 int main() {
