@@ -1,3 +1,5 @@
+//algorito que vai receber 3 algoritos a, b, c que calculem a forma de bhaskara
+
 #include <stdio.h>
 #include <math.h>
 
@@ -16,20 +18,20 @@ int main() {
     scanf("%f", &c);
 
     if (a == 0) {
-        printf("N„o È uma equaÁ„o do segundo grau (a n„o pode ser zero).\n");
+        printf("N√£o √© uma equa√ß√£o do segundo grau (a n√£o pode ser zero).\n");
     } else {
 
         delta = b * b - 4 * a * c;
 
         if (delta < 0) {
-            printf("A equaÁ„o n„o possui raÌzes reais.\n");
+            printf("A equa√ß√£o n√£o possui ra√≠zes reais.\n");
         } else if (delta == 0) {
             x1 = -b / (2 * a);
-            printf("A equaÁ„o possui uma raiz real: x = %.2f\n", x1);
+            printf("A equa√ß√£o possui uma raiz real: x = %.2f\n", x1);
         } else {
             x1 = (-b + sqrt(delta)) / (2 * a);
             x2 = (-b - sqrt(delta)) / (2 * a);
-            printf("A equaÁ„o possui duas raizes reais:\n");
+            printf("A equa√ß√£o possui duas raizes reais:\n");
             printf("x1 = %.2f\n", x1);
             printf("x2 = %.2f\n", x2);
         }
