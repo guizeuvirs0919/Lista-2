@@ -1,3 +1,5 @@
+//algoritimo que pede valores de uma resistencias e responde se forem equivalentes 
+
 #include <stdio.h>
 
 int main() {
