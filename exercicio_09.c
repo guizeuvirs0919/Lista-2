@@ -1,3 +1,5 @@
+//algorito que pede pra digitar um numero inteiro e que dps fala se é par ou nao 
+
 #include <stdio.h>
 
 int main() {
